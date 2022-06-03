@@ -7,9 +7,7 @@ function Web() {
     <div>
       <h1>Web</h1>
       <p>{t('title')}</p>
-      <ButtonTwo t={t} />
-      {/* Uncomment this to see the error. */}
-      {/* <Button /> */}
+      <Button />
     </div>
   );
 }
