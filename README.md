@@ -1,6 +1,6 @@
-# Turborepo starter with pnpm
+# Turborepo with next-intl 
 
-This is an official starter turborepo.
+Shared components library `packages/ui` depending on translations from the apps folder. So can easily drag and drop components
 
 ## What's inside?
 
