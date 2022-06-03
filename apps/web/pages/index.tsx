@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import { Button } from "ui";
+import { Button, ButtonTwo } from "ui";
 
 function Web() {
   const t = useTranslations('hero')
@@ -7,6 +7,8 @@ function Web() {
     <div>
       <h1>Web</h1>
       <p>{t('title')}</p>
+      <ButtonTwo t={t} />
+      {/* Uncomment this to see the error. */}
       {/* <Button /> */}
     </div>
   );
